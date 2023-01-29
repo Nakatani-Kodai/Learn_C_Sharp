@@ -8,26 +8,37 @@ using System.Text;
 using System.Threading.Tasks;
 
 
+
 internal class Program
 {
     static void Main(string[] args)
     {
-        // 第2章 ////////////////////////////////////////////////////////////////////////////
+        // 第2章 Chapter 2 ////////////////////////////////////////////////////////////////////////////
 
-            // 問題2.1
-            var baseArray = new Song[2];
-            var array1 = new Song("リンダ リンダ", "THE BLUE HEARTS", 180);
-            var array2 = new Song("エイトビート", "ザ・クロマニヨンズ", 230);
+        // 問題2.1
+        //var baseArray = new Song[2];
+        //var array1 = new Song("リンダ リンダ", "THE BLUE HEARTS", 180);
+        //var array2 = new Song("エイトビート", "ザ・クロマニヨンズ", 230);
 
-            baseArray[0] = array1;
-            baseArray[1] = array2;
+        //baseArray[0] = array1;
+        //baseArray[1] = array2;
 
-            baseArray[0].ConsoleResult();
-            baseArray[1].ConsoleResult();
+        //baseArray[0].ConsoleResult();
+        //baseArray[1].ConsoleResult();
 
 
-            // 問題2.2  
-            new InchToMeter().ConsoleResult();
+        // 問題2.2  
+        //new InchToMeter().ConsoleResult();
+
+
+        // 第2章 Chapter 3 ////////////////////////////////////////////////////////////////////////////
+
+        // Delegate型のメソッドの呼び出し
+        //new DelayExeMethod().Execute();
+
+        // 拡張メソッドの呼び出し
+        var result = ExtensionMethod.Hoge("hoge");
+        Console.WriteLine(result);
 
     }
 }
