@@ -8,5 +8,6 @@ namespace Learn_C_Sharp.Test_Branch
 {
     internal class Branch
     {
+        // featureの変更
     }
 }
