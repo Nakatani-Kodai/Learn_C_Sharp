@@ -29,7 +29,5 @@ internal class Program
             // 問題2.2  
             new InchToMeter().ConsoleResult();
 
-            // commit打消し
-
     }
 }
