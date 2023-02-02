@@ -23,6 +23,11 @@ namespace Learn_C_Sharp.Classes
             foreach (var item in query)
                 Console.WriteLine(item);
 
+
+
+
+            
+
             // 表示される結果はそれぞれ異なる。
             // Whereメソッドは15行目で実行されず、必要な時に呼び出される。
         }
